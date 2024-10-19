@@ -2,7 +2,7 @@
 
 from microbit import *
 
-while True:
+while True:
     irL = pin13.read_digital()
     irR = pin14.read_digital()
     if irL == 0 and irR == 0:
